@@ -7,7 +7,7 @@
                     @csrf
                     @method('PUT')
                     <x-product-form :product="$product"></x-product-form>
-                    <button class="btn waves-effect waves-light" type="submit" name="action">
+                    <button class="btn btn-primary" type="submit" name="action">
                         Editar
                     </button>
                 </form>
